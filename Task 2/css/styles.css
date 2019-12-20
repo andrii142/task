@@ -1,0 +1,173 @@
+
+body {
+  font-family: sans-serif;
+  color: #545E6C;
+  background: #f5f5f5;
+  font-size: 14px;
+  padding: 30px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+a:hover {
+  text-decoration: underline;
+  color: #1a454f;
+}
+p {
+  line-height: 1.5;
+}
+.wrapper {
+  background: #42A8C0;
+  max-width: 960px;
+  margin: 0 auto;
+  position: relative;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.contacts-wrapper  {
+  background: #54B689;
+  position: absolute;
+  right: 0;
+  width: 240px;
+  height: 100%;
+  min-height: 800px;
+  color: #fff;
+}
+.contacts-wrapper  a {
+  color: #fff;
+}
+.contacts-wrapper  .profile-container {
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  color: #fff;
+}
+.contacts-wrapper  .name {
+  font-size: 32px;
+  font-weight: 900;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.contacts-wrapper  .tagline {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.contacts-wrapper  .profile {
+  margin-bottom: 15px;
+}
+.contacts-wrapper  .contact-list li {
+  margin-bottom: 15px;
+}
+.contacts-wrapper  .contact-list li:last-child {
+  margin-bottom: 0;
+}
+.contacts-wrapper  .container-block {
+  padding: 30px;
+}
+.contacts-wrapper  .container-block-title {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+.contacts-wrapper  .degree {
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.contacts-wrapper  .education-container .item {
+  margin-bottom: 15px;
+}
+.contacts-wrapper  .education-container .item:last-child {
+  margin-bottom: 0;
+}
+.contacts-wrapper  .education-container .meta {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
+  margin-bottom: 0px;
+  margin-top: 0;
+}
+.contacts-wrapper  .education-container .time {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+.contacts-wrapper .languages-container .lang-desc {
+  color: rgba(255, 255, 255, 0.6);
+}
+.contacts-wrapper .languages-list li {
+  margin-bottom: 10px;
+}
+.contacts .interests-list li {
+  margin-bottom: 10px;
+}
+.main-wrapper {
+  background: #fff;
+  padding: 60px;
+  padding-right: 300px;
+}
+.main-wrapper .section-title {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
+  color: #54B689;
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.main-wrapper .section {
+  margin-bottom: 60px;
+}
+.main-wrapper .experiences-section .item {
+  margin-bottom: 30px;
+}
+.main-wrapper .upper-row {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 2px;
+}
+.main-wrapper .job-title {
+  color: #54B689;
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+.main-wrapper .details-title{
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+.main-wrapper .experiences-section .details-list{
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.main-wrapper .item-title{
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+.main-wrapper .item-list{
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.main-wrapper .time {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #97AAC3;
+}
+.main-wrapper .company {
+  margin-bottom: 10px;
+  color: #97AAC3;
+}
