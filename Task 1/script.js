@@ -13,9 +13,10 @@ let arr = [
  }
  
  ]
- searchByName =  arr.map(function(a){
-   return a.name
- })
+let str = 'Ivan'
+ searchByName =  arr.filter(function(item){
+  return item.name == str
+})
  
  getBiggestAge = arr.reduce(function(prev, cur){
    if(cur.birthday < prev.birthday){return cur}
